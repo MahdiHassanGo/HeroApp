@@ -2,8 +2,8 @@ import React from 'react';
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1>this is error</h1>
+        <div className='flex justify-center'>
+            <img src="../../public/assets/error-404.png" alt="" />
         </div>
     );
 };
