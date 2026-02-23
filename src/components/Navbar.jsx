@@ -1,6 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+      const handleClick=()=>{
+        console.log('click');
+      }
+
+
     return (
      <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -11,19 +17,22 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-        <li><a>Apps</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/all" onClick={handleClick}>Apps</Link></li>
         <li><a>Installation</a></li>
-        
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"> <img  className='w-[50px]'src="../../public/assets/logo.png" alt="" />HeroApp</a>
+    {/* logo should also be a router link */}
+    <Link to="/" className="btn btn-ghost text-xl flex items-center gap-2">
+      <img className='w-[50px]' src="../../public/assets/logo.png" alt="HeroApp logo" />
+      HeroApp
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-             <li><a>Home</a></li>
-        <li><a>Apps</a></li>
-        <li><a>Installation</a></li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/all">Apps</Link></li>
+      <li><a>Installation</a></li>
     </ul>
   </div>
   <div className="navbar-end">

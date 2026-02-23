@@ -35,9 +35,9 @@ const Home = () => {
  
 
 </div>
- <div className='min-h-screen'>
+ <div className='min-h-screen mt-5'>
 <h2 className="text-5xl">Trending Apps</h2>
-<p>Explore All Trending Apps on the Market developed by us</p>
+<p className='mb-5'>Explore All Trending Apps on the Market developed by us</p>
 
 <Suspense fallback={<div> loading ......</div>}>
 <Apps data={data}></Apps>

@@ -1,12 +1,13 @@
 import React from 'react';
 import {
   createBrowserRouter,
-  RouterProvider,
-} from "react-router";
+  // RouterProvider is not needed here, it's used in main.jsx
+} from "react-router-dom";  // must come from dom package for browser APIs
 import Home from '../pages/Home';
 import Root from '../pages/Root';
 import ErrorPage from '../components/ErrorPage';
 import AppDetails from '../pages/AppDetails';
+import AllApps from '../pages/AllApps';
 
 
 export const  router = createBrowserRouter([
@@ -16,17 +17,20 @@ export const  router = createBrowserRouter([
     children:[
         {
           
-         index:true,
-         path:'/',
-         Component:Home,
-         loader:()=>fetch('../../public/data.json'),
-         errorElement:<ErrorPage></ErrorPage>
-         
+         index: true,
+         Component: Home,
+         loader: () => fetch('/data.json'),           
+         errorElement: <ErrorPage />
         },
         {
-         loader:()=>fetch('../../public/data.json'),
-          path:'/details/:id',
-          Component:AppDetails,
+          path: '/all',
+          loader: () => fetch('/data.json'),
+          Component: AllApps,
+        },
+        {
+          path: '/details/:id',
+          loader: () => fetch('/data.json'),
+          Component: AppDetails,
         },
           {
         
