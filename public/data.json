@@ -1,0 +1,259 @@
+[
+  {
+    "image": "https://cdn.simpleicons.org/whatsapp/25D366",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 1,
+    "description": "Private messaging and calling with end-to-end encryption. Share photos, videos, documents, and voice messages.",
+    "size": 82,
+    "reviews": 3000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 240000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1950000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/instagram/E4405F",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Share photos, reels, and stories. Follow creators, discover trends, and message friends.",
+    "size": 67,
+    "reviews": 2500000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 75000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1625000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/youtube/FF0000",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Watch, upload, and discover videos. Subscribe to channels and build playlists.",
+    "size": 154,
+    "reviews": 4000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2600000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googlemaps/4285F4",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "GPS navigation, traffic, transit routes, and local business discovery in real time.",
+    "size": 118,
+    "reviews": 2200000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 66000 },
+      { "name": "2 star", "count": 88000 },
+      { "name": "3 star", "count": 176000 },
+      { "name": "4 star", "count": 440000 },
+      { "name": "5 star", "count": 1430000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/gmail/EA4335",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Fast, secure email with smart search, spam protection, and Google Workspace integration.",
+    "size": 92,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 54000 },
+      { "name": "2 star", "count": 72000 },
+      { "name": "3 star", "count": 144000 },
+      { "name": "4 star", "count": 360000 },
+      { "name": "5 star", "count": 1170000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googledrive/4285F4",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Cloud storage with file sharing, backups, and real-time syncing across devices.",
+    "size": 106,
+    "reviews": 1500000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 975000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googlecalendar/4285F4",
+    "title": "Google Calendar",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Schedule events, set reminders, manage tasks, and share calendars with others.",
+    "size": 44,
+    "reviews": 900000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 27000 },
+      { "name": "2 star", "count": 36000 },
+      { "name": "3 star", "count": 72000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 585000 }
+    ]
+  },
+  
+  
+  {
+    "image": "https://cdn.simpleicons.org/zoom/2D8CFF",
+    "title": "Zoom Workplace",
+    "companyName": "Zoom Communications, Inc.",
+    "id": 11,
+    "description": "Video meetings and team chat with reliable audio/video and scheduling integrations.",
+    "size": 113,
+    "reviews": 1600000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 48000 },
+      { "name": "2 star", "count": 64000 },
+      { "name": "3 star", "count": 128000 },
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 1040000 }
+    ]
+  },
+  
+  {
+    "image": "https://cdn.simpleicons.org/notion/000000",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 13,
+    "description": "All-in-one workspace for notes, docs, databases, and project management.",
+    "size": 96,
+    "reviews": 900000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 27000 },
+      { "name": "2 star", "count": 36000 },
+      { "name": "3 star", "count": 72000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 585000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/todoist/E44332",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 14,
+    "description": "To-do list and planner with recurring tasks, labels, filters, and cross-platform sync.",
+    "size": 53,
+    "reviews": 850000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 25500 },
+      { "name": "2 star", "count": 34000 },
+      { "name": "3 star", "count": 68000 },
+      { "name": "4 star", "count": 170000 },
+      { "name": "5 star", "count": 552500 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/trello/0052CC",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 15,
+    "description": "Visual boards and cards for projects, tasks, and teamwork with drag-and-drop workflows.",
+    "size": 72,
+    "reviews": 700000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 21000 },
+      { "name": "2 star", "count": 28000 },
+      { "name": "3 star", "count": 56000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 455000 }
+    ]
+  },
+  
+  {
+    "image": "https://cdn.simpleicons.org/duolingo/58CC02",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 17,
+    "description": "Learn languages with bite-sized lessons, streaks, and adaptive practice.",
+    "size": 189,
+    "reviews": 3000000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 240000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1950000 }
+    ]
+  },
+  
+  {
+    "image": "https://cdn.simpleicons.org/dropbox/0061FF",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 19,
+    "description": "Secure cloud storage and syncing. Share links, collaborate, and keep files backed up.",
+    "size": 112,
+    "reviews": 800000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 24000 },
+      { "name": "2 star", "count": 32000 },
+      { "name": "3 star", "count": 64000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 520000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/evernote/00A82D",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 20,
+    "description": "Capture notes, web clips, and documents. Organize with notebooks, tags, and search.",
+    "size": 78,
+    "reviews": 600000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 24000 },
+      { "name": "3 star", "count": 48000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 390000 }
+    ]
+  }
+]
