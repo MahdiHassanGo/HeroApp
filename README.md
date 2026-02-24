@@ -1,6 +1,6 @@
 # HeroApp — App Showcase & Installation Tracker
 
-A clean, responsive React web app that showcases a curated list of popular apps, lets users explore app details (downloads, ratings, reviews, and rating breakdown charts), and “install/uninstall” apps using local storage persistence.
+A clean, responsive React web app that showcases a curated list of popular apps, lets users explore app details (downloads, ratings, reviews, and rating breakdown charts), and “install/uninstall” apps using local storage persistence.)
 <img width="1699" height="856" alt="image" src="https://github.com/user-attachments/assets/0140144a-a3b5-43f0-a9f0-5131f978d983" />
 > Built with **React + React Router**, styled with **Tailwind CSS + DaisyUI**, icons from **Lucide**, and charts from **Recharts**.
 <img width="1681" height="840" alt="image" src="https://github.com/user-attachments/assets/a8e5acff-1c79-400f-a0d6-cef3add73283" />
