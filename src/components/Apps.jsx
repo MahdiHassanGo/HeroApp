@@ -1,36 +1,60 @@
+// Apps.jsx
 import { Link } from "react-router-dom";
 import { formatDownloads } from "../utils/convertDownload";
-import { Star } from "lucide-react";
-import { Download } from "lucide-react";
+import { Star, Download } from "lucide-react";
 
 const Apps = ({ data }) => {
   const fiveStarApps = data.filter((app) => Number(app.ratingAvg) >= 4.6);
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
       {fiveStarApps.map((app) => (
-        <div key={app.id} className="flex justify-center">
-          <Link
-            to={`/details/${app.id}`}
-            className="card w-full sm:w-80 bg-white shadow-md hover:shadow-lg transition transform hover:-translate-y-1 rounded-lg overflow-hidden"
-          >
-            <figure className="flex justify-center p-4">
-              <img className="w-24 h-24 object-contain" src={app.image} alt={app.title} />
-            </figure>
+        <Link
+          key={app.id}
+          to={`/details/${app.id}`}
+          className="group card bg-base-100 border border-base-200 shadow-sm hover:shadow-lg transition-all hover:-translate-y-0.5"
+        >
+          <div className="card-body">
+            <div className="flex items-start gap-4">
+              <div className="rounded-2xl p-3 bg-base-200/60 border border-base-200">
+                <img
+                  className="w-12 h-12 object-contain"
+                  src={app.image}
+                  alt={app.title}
+                />
+              </div>
 
-            <div className="card-body">
-              <h2 className="card-title text-lg font-semibold">{app.title}</h2>
+              <div className="flex-1 min-w-0">
+                <h3 className="font-semibold text-lg truncate">
+                  {app.title}
+                </h3>
+                <p className="text-sm text-base-content/60 truncate">
+                  {app.companyName}
+                </p>
 
-              <div className="card-actions justify-end">
-                <button className="btn btn-sm text-green-400 flex items-center gap-1">
-                  <Download />{formatDownloads(app.downloads)}
-                </button>
-                <button className="btn btn-sm text-orange-300 flex items-center gap-1">
-                  <Star />{app.ratingAvg}
-                </button>
+                <div className="mt-3 flex flex-wrap items-center gap-2">
+                  <span className="badge badge-outline gap-1">
+                    <Download className="w-4 h-4" />
+                    {formatDownloads(app.downloads)}
+                  </span>
+                  <span className="badge badge-outline gap-1">
+                    <Star className="w-4 h-4" />
+                    {app.ratingAvg}
+                  </span>
+                </div>
               </div>
             </div>
-          </Link>
-        </div>
+
+            <div className="mt-4 flex items-center justify-between">
+              <span className="text-sm text-base-content/60">
+                Tap to view details
+              </span>
+              <span className="btn btn-primary btn-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                Open
+              </span>
+            </div>
+          </div>
+        </Link>
       ))}
     </div>
   );
